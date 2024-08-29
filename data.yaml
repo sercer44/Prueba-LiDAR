@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['camion', 'coche', 'paso de peatones', 'peaton']
+
+roboflow:
+  workspace: sergio-cernuda
+  project: lidar-ouster-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sergio-cernuda/lidar-ouster-dataset/dataset/1
